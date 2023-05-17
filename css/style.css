@@ -1,0 +1,88 @@
+body,html{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+#header{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.container{
+    width: 86%;
+    margin: 0 auto;
+}
+
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav{}
+
+.main-nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #333;
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.main-nav ul li{
+    float: left;
+ /*   margin-left: 35px;
+    font-size: 18px; */
+}
+
+.main-nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+li a:hover{
+    background-color: #111;
+}
+
+.banner img{
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.about-section{}
+.service-section{}
+.contact-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-section{
+    background: #dbfbf4 ;
+}
+.service-section{
+    background: #cfd6f9 ;
+}
+.contact-section{
+    background: #d6f9cf ;
+}
+
+.active {
+    background-color: #04AA6D;
+  }
