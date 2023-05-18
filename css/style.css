@@ -118,41 +118,26 @@ li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/images/blog-2.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 
 .about-section{
     background: #dbfbf4 ;
-    background-image: url('/images/background1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 .service-section{
     background: #cfd6f9 ;
-    background-image: url('/images/background-menu.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 .contact-section{
     background: #d6f9cf ;
-    background-image: url('/images/background.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 .feedback-section{
     background: #f9cfcf ;
-    background-image: url('/images/book-table-img.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 
