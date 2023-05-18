@@ -1,6 +1,6 @@
 body,html{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-size: 18px;
     scroll-behavior: smooth;
 }
@@ -14,20 +14,31 @@ body,html{
 }
 
 .containerbody{
-    width: 86%;
+    
     margin: 0 auto;
-    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .containerbody2{
     width: 90%;
     margin: 0 auto;
-    padding: 30px;
-
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
 }
 
 .containerbody3{
     
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+.containerbody4{
+    width: 60%;
     margin: 0 auto;
     padding: 30px;
 
@@ -38,6 +49,7 @@ body,html{
     margin: 0 auto;
     
 }
+
 
 #header .container{
     display: flex;
@@ -79,6 +91,11 @@ body,html{
     color: white;
   }
 
+.main-nav ul li a.activesignup {
+    background-color:  #5c21ff;
+    color: white;
+  }
+
 .round-img {
     border-radius: 50%;
 }
@@ -96,11 +113,20 @@ li a:hover{
     vertical-align: top;
 }
 
+.banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .about-section{
     background: #dbfbf4 ;
 }
 .service-section{
     background: #cfd6f9 ;
+    background-image: url('/images/background-menu.jpg');
 }
 .contact-section{
     background: #d6f9cf ;
@@ -109,13 +135,6 @@ li a:hover{
 .feedback-section{
     background: #f9cfcf ;
 }
-
-.active {
-    background-color: #04AA6D;
-  }
-
-
-
 
 
 
@@ -128,7 +147,7 @@ li a:hover{
   .display-2 {
     font-size: 5.5rem;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: .2;
     align-content: center;
   }
 
@@ -170,14 +189,28 @@ li a:hover{
 .btn-lg, .btn-group-lg > .btn {
     padding: 0.8rem 1.6rem;
     font-size: 1.25rem;
+
     line-height: 1.5;
     border-radius: 0.15rem;
   }
 
   .btn-primary {
     color: #fff;
+    
     background-color: #ff214f;
     border-color: #ff214f;
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #5c21ff;
+    border-color: #5c21ff;
+  }
+
+  .btn-tertary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
   }
 
   th, td {
@@ -199,7 +232,15 @@ li a:hover{
 
 
 
-
+  #rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+    z-index: 1;
+    position: fixed;
+  }
 
 
 
@@ -214,14 +255,18 @@ li a:hover{
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
     display: none;
+    
+    
 }
 .popup-content {
-    background-color: white;
+    background-color: #fdfdfd;
     margin: 10% auto;
     padding: 20px;
-    border: 1px solid #888888;
+    border: 1px solid  #ffffff;
     width: 30%;
     font-weight: bolder;
+    opacity: .9;
+    border-radius: 15px 50px;
 }
 .popup-content button {
     display: block;
@@ -233,10 +278,27 @@ li a:hover{
 
 
 
+.legendfeedback {
+    color: #fff;
+    background-color: #ff214f;
+    border-color: #ff214f;
+    padding: 5px 10px;
+    font-size: x-large;
+    display:block;
+  }
 
+  .legendsignup {
+    color: #fff;
+    background-color: #5c21ff;
+    border-color: #5c21ff;
+    padding: 5px 10px;
+    font-size: x-large;
+    display:block;
+  }
 
-
-
+  input {
+    margin: 5px;
+  }
 
 
 
@@ -275,14 +337,33 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  align-items: center;
+  align-items: left;
+  align-self: center;
+  width: 40%;
 }
 
+.containersignup {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 60%;
+    
+  }
+
+  .mysignup {
+    background-color: #fdec00;
+    border-radius: 20px;
+    
+  }
+
+
+  .mytopalign {
+    vertical-align: top;    
+  }
 
 
 
-
-button {
+.mybutton {
     background-color: #000;
     border: .5px solid crimson;
     border-radius: 10px;
