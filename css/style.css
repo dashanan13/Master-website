@@ -127,6 +127,9 @@ li a:hover{
 .service-section{
     background: #cfd6f9 ;
     background-image: url('/images/background-menu.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contact-section{
     background: #d6f9cf ;
