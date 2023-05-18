@@ -61,3 +61,71 @@ window.addEventListener("click", function (event) {
         myPopup5.classList.remove("show");
     }
 });
+
+
+
+
+
+myButton6.addEventListener("click", function () {
+    myPopup6.classList.add("show");
+});
+closePopup6.addEventListener("click", function () {
+    myPopup6.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+    if (event.target == myPopup6) {
+        myPopup6.classList.remove("show");
+    }
+});
+
+
+myButton7.addEventListener("click", function () {
+    myPopup7.classList.add("show");
+});
+closePopup7.addEventListener("click", function () {
+    myPopup7.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+    if (event.target == myPopup7) {
+        myPopup7.classList.remove("show");
+    }
+});
+
+
+myButton8.addEventListener("click", function () {
+    myPopup8.classList.add("show");
+});
+closePopup8.addEventListener("click", function () {
+    myPopup8.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+    if (event.target == myPopup8) {
+        myPopup8.classList.remove("show");
+    }
+});
+
+
+myButton9.addEventListener("click", function () {
+    myPopup9.classList.add("show");
+});
+closePopup9.addEventListener("click", function () {
+    myPopup9.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+    if (event.target == myPopup9) {
+        myPopup9.classList.remove("show");
+    }
+});
+
+
+myButton10.addEventListener("click", function () {
+    myPopup10.classList.add("show");
+});
+closePopup10.addEventListener("click", function () {
+    myPopup10.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+    if (event.target == myPopup10) {
+        myPopup10.classList.remove("show");
+    }
+});

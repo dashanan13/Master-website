@@ -23,8 +23,15 @@ body,html{
     width: 90%;
     margin: 0 auto;
     padding: 30px;
+
 }
 
+.containerbody3{
+    
+    margin: 0 auto;
+    padding: 30px;
+
+}
 
 .container{
     width: 86%;
@@ -64,6 +71,16 @@ body,html{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #04AA6D;
+}
+
+.main-nav ul li a.active {
+    background-color: #ff0000;
+    color: white;
+  }
+
+.round-img {
+    border-radius: 50%;
 }
 
 li a:hover:not(.active) {
@@ -79,14 +96,6 @@ li a:hover{
     vertical-align: top;
 }
 
-.about-section{}
-.service-section{}
-.contact-section{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
 .about-section{
     background: #dbfbf4 ;
 }
@@ -95,6 +104,10 @@ li a:hover{
 }
 .contact-section{
     background: #d6f9cf ;
+}
+
+.feedback-section{
+    background: #f9cfcf ;
 }
 
 .active {
@@ -188,7 +201,7 @@ li a:hover{
 
 
 
-  
+
 
 
 .popup {
@@ -217,3 +230,65 @@ li a:hover{
 .show {
     display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containerfeedback {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  align-items: center;
+}
+
+
+
+
+
+button {
+    background-color: #000;
+    border: .5px solid crimson;
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px;
+    box-shadow: 0 0 30px 0 crimson,
+                0 0 30px 0 crimson,
+                0 0 10px 0 crimson inset;
+  }
