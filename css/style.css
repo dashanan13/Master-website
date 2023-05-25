@@ -118,25 +118,26 @@ li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #FFFFE0;
 
 }
 
 
 .about-section{
-    background: #dbfbf4 ;
+    background: #48D1CC ;
 
 }
 .service-section{
-    background: #cfd6f9 ;
+    background: #E9967A ;
 
 }
 .contact-section{
-    background: #d6f9cf ;
+    background: #6495ED ;
 
 }
 
 .feedback-section{
-    background: #f9cfcf ;
+    background: #DA70D6 ;
 
 }
 
@@ -348,7 +349,7 @@ input[type=submit]:hover {
 
 .containersignup {
     border-radius: 20px;
-    background-color: #f2f2f2;
+    background-color: #FAF0E6;
     padding: 20px;
     width: 60%;
     
